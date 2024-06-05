@@ -26,9 +26,10 @@ public class SigninCommand extends Command {
         String login = scanner.nextLine();
 
         System.out.print("Введите пароль: ");
-        String generatedSecuredPasswordHash = SCryptUtil.scrypt(scanner.nextLine(), 32, 32, 32);
+        //String generatedSecuredPasswordHash = SCryptUtil.scrypt(scanner.nextLine(), 32, 32, 32);
+        String password = scanner.nextLine();
         console.println("Запрос входа отправлен на сервер");
-        tcpClient.sendCmdRequest(new SigninRequest(login, generatedSecuredPasswordHash));
+        tcpClient.sendCmdRequest(new SigninRequest(login, password));
         return true;
     }
 }

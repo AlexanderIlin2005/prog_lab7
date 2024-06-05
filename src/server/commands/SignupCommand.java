@@ -8,6 +8,9 @@ import server.managers.UserManager;
 
 import java.io.IOException;
 
+import static server.TCPServer.currentUserIsAuthenticated;
+import static server.TCPServer.currentUserLogin;
+
 public class SignupCommand extends Command{
 
 
@@ -23,6 +26,8 @@ public class SignupCommand extends Command{
         Responce res = new Responce();
         if (result) {
             res.addString("Регистрация прошла успешно");
+            currentUserIsAuthenticated.set(true);
+            currentUserLogin.set(request.getLogin());
         } else res.addString("Пользователь с такими логином и паролем уже есть");
         return res;
     }

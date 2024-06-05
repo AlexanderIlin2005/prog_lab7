@@ -1,5 +1,7 @@
 package server.managers;
 
+import common.lambdaworks.crypto.SCryptUtil;
+
 import java.sql.*;
 
 public class UserManager {
@@ -32,14 +34,19 @@ public class UserManager {
         }
     }
 
-    public boolean authenticateUser(String login, String hashedPassword) {
+    public boolean authenticateUser(String login, String password) {
         try {
-            String query = "SELECT * FROM Users WHERE login = ? AND hashed_password = ?";
+            //String query = "SELECT * FROM Users WHERE login = ? AND hashed_password = ?";
+            String query = "SELECT * FROM Users WHERE login = ?";
             PreparedStatement statement = connection.prepareStatement(query);
             statement.setString(1, login);
-            statement.setString(2, hashedPassword);
+            //statement.setString(2, hashedPassword);
             ResultSet resultSet = statement.executeQuery();
-            return resultSet.next();
+            if (resultSet.next()){
+                String oldHashedPassword = resultSet.getString("hashed_password");
+                return SCryptUtil.check(password, oldHashedPassword);
+            }
+            return false;
         } catch (SQLException e) {
             return false;
         }

@@ -3390,3 +3390,4489 @@ governor: age=25
 Регистрация прошла успешно
 </message>
 </record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T19:12:52.481963Z</date>
+  <millis>1717614772481</millis>
+  <nanos>963000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 52503</message>
+</record>
+<record>
+  <date>2024-06-05T19:12:58.083211Z</date>
+  <millis>1717614778083</millis>
+  <nanos>211000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T19:12:58.097136Z</date>
+  <millis>1717614778097</millis>
+  <nanos>136000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T19:14:32.041906Z</date>
+  <millis>1717614872041</millis>
+  <nanos>906000</nanos>
+  <sequence>4</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: signin</message>
+</record>
+<record>
+  <date>2024-06-05T19:14:32.166150Z</date>
+  <millis>1717614872166</millis>
+  <nanos>150000</nanos>
+  <sequence>5</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+Неверные логин и/или пароль. В доступе отказано
+</message>
+</record>
+<record>
+  <date>2024-06-05T19:16:41.608055Z</date>
+  <millis>1717615001608</millis>
+  <nanos>55000</nanos>
+  <sequence>6</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>21</thread>
+  <message>Получено новое подключение: /127.0.0.1 52536</message>
+</record>
+<record>
+  <date>2024-06-05T19:16:53.211260Z</date>
+  <millis>1717615013211</millis>
+  <nanos>260000</nanos>
+  <sequence>7</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>21</thread>
+  <message>Получен новый запрос: signin</message>
+</record>
+<record>
+  <date>2024-06-05T19:16:53.314525Z</date>
+  <millis>1717615013314</millis>
+  <nanos>525000</nanos>
+  <sequence>8</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>21</thread>
+  <message>Отправлен ответ: Ответ сервера:
+Неверные логин и/или пароль. В доступе отказано
+</message>
+</record>
+<record>
+  <date>2024-06-05T19:17:38.671082Z</date>
+  <millis>1717615058671</millis>
+  <nanos>82000</nanos>
+  <sequence>9</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>23</thread>
+  <message>Получено новое подключение: /127.0.0.1 52573</message>
+</record>
+<record>
+  <date>2024-06-05T19:18:04.756167Z</date>
+  <millis>1717615084756</millis>
+  <nanos>167000</nanos>
+  <sequence>10</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>23</thread>
+  <message>Получен новый запрос: signin</message>
+</record>
+<record>
+  <date>2024-06-05T19:18:04.844110Z</date>
+  <millis>1717615084844</millis>
+  <nanos>110000</nanos>
+  <sequence>11</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>23</thread>
+  <message>Отправлен ответ: Ответ сервера:
+Неверные логин и/или пароль. В доступе отказано
+</message>
+</record>
+<record>
+  <date>2024-06-05T19:18:26.861353Z</date>
+  <millis>1717615106861</millis>
+  <nanos>353000</nanos>
+  <sequence>12</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>22</thread>
+  <message>Получено новое подключение: /127.0.0.1 52600</message>
+</record>
+<record>
+  <date>2024-06-05T19:18:37.096988Z</date>
+  <millis>1717615117096</millis>
+  <nanos>988000</nanos>
+  <sequence>13</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>22</thread>
+  <message>Получен новый запрос: signin</message>
+</record>
+<record>
+  <date>2024-06-05T19:18:37.221935Z</date>
+  <millis>1717615117221</millis>
+  <nanos>935000</nanos>
+  <sequence>14</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>22</thread>
+  <message>Отправлен ответ: Ответ сервера:
+Неверные логин и/или пароль. В доступе отказано
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T19:52:38.055334Z</date>
+  <millis>1717617158055</millis>
+  <nanos>334000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 53095</message>
+</record>
+<record>
+  <date>2024-06-05T19:52:41.934134Z</date>
+  <millis>1717617161934</millis>
+  <nanos>134000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T19:52:41.949243Z</date>
+  <millis>1717617161949</millis>
+  <nanos>243000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T19:53:22.261256Z</date>
+  <millis>1717617202261</millis>
+  <nanos>256000</nanos>
+  <sequence>4</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>21</thread>
+  <message>Получено новое подключение: /127.0.0.1 53099</message>
+</record>
+<record>
+  <date>2024-06-05T19:53:27.312271Z</date>
+  <millis>1717617207312</millis>
+  <nanos>271000</nanos>
+  <sequence>5</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>21</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T19:53:27.313347Z</date>
+  <millis>1717617207313</millis>
+  <nanos>347000</nanos>
+  <sequence>6</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>21</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T19:55:26.920073Z</date>
+  <millis>1717617326920</millis>
+  <nanos>73000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 53123</message>
+</record>
+<record>
+  <date>2024-06-05T19:55:29.551979Z</date>
+  <millis>1717617329551</millis>
+  <nanos>979000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T19:55:29.566645Z</date>
+  <millis>1717617329566</millis>
+  <nanos>645000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T19:55:31.988295Z</date>
+  <millis>1717617331988</millis>
+  <nanos>295000</nanos>
+  <sequence>4</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T19:55:31.991129Z</date>
+  <millis>1717617331991</millis>
+  <nanos>129000</nanos>
+  <sequence>5</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T19:56:40.609295Z</date>
+  <millis>1717617400609</millis>
+  <nanos>295000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 53131</message>
+</record>
+<record>
+  <date>2024-06-05T19:56:46.946002Z</date>
+  <millis>1717617406946</millis>
+  <nanos>2000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T19:56:46.961137Z</date>
+  <millis>1717617406961</millis>
+  <nanos>137000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T19:56:50.061333Z</date>
+  <millis>1717617410061</millis>
+  <nanos>333000</nanos>
+  <sequence>4</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T19:56:50.063681Z</date>
+  <millis>1717617410063</millis>
+  <nanos>681000</nanos>
+  <sequence>5</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T20:00:02.197520Z</date>
+  <millis>1717617602197</millis>
+  <nanos>520000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 53162</message>
+</record>
+<record>
+  <date>2024-06-05T20:00:05.730371Z</date>
+  <millis>1717617605730</millis>
+  <nanos>371000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T20:00:05.745307Z</date>
+  <millis>1717617605745</millis>
+  <nanos>307000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T20:00:09.120645Z</date>
+  <millis>1717617609120</millis>
+  <nanos>645000</nanos>
+  <sequence>4</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T20:00:09.122309Z</date>
+  <millis>1717617609122</millis>
+  <nanos>309000</nanos>
+  <sequence>5</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T20:04:48.580502Z</date>
+  <millis>1717617888580</millis>
+  <nanos>502000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 53222</message>
+</record>
+<record>
+  <date>2024-06-05T20:04:53.450723Z</date>
+  <millis>1717617893450</millis>
+  <nanos>723000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T20:04:53.465273Z</date>
+  <millis>1717617893465</millis>
+  <nanos>273000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T20:04:58.164308Z</date>
+  <millis>1717617898164</millis>
+  <nanos>308000</nanos>
+  <sequence>4</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T20:04:58.165870Z</date>
+  <millis>1717617898165</millis>
+  <nanos>870000</nanos>
+  <sequence>5</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T20:07:35.671401Z</date>
+  <millis>1717618055671</millis>
+  <nanos>401000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 53253</message>
+</record>
+<record>
+  <date>2024-06-05T20:07:39.054839Z</date>
+  <millis>1717618059054</millis>
+  <nanos>839000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T20:07:39.069196Z</date>
+  <millis>1717618059069</millis>
+  <nanos>196000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T20:07:42.358332Z</date>
+  <millis>1717618062358</millis>
+  <nanos>332000</nanos>
+  <sequence>4</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T20:07:42.360391Z</date>
+  <millis>1717618062360</millis>
+  <nanos>391000</nanos>
+  <sequence>5</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T20:12:22.689727Z</date>
+  <millis>1717618342689</millis>
+  <nanos>727000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 53334</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T20:15:04.059903Z</date>
+  <millis>1717618504059</millis>
+  <nanos>903000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 53396</message>
+</record>
+<record>
+  <date>2024-06-05T20:15:07.156074Z</date>
+  <millis>1717618507156</millis>
+  <nanos>74000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T20:15:07.170669Z</date>
+  <millis>1717618507170</millis>
+  <nanos>669000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T20:15:24.563628Z</date>
+  <millis>1717618524563</millis>
+  <nanos>628000</nanos>
+  <sequence>4</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T20:15:24.565827Z</date>
+  <millis>1717618524565</millis>
+  <nanos>827000</nanos>
+  <sequence>5</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T20:15:36.306707Z</date>
+  <millis>1717618536306</millis>
+  <nanos>707000</nanos>
+  <sequence>6</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T20:15:36.309508Z</date>
+  <millis>1717618536309</millis>
+  <nanos>508000</nanos>
+  <sequence>7</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T20:28:03.495001Z</date>
+  <millis>1717619283495</millis>
+  <nanos>1000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 53556</message>
+</record>
+<record>
+  <date>2024-06-05T20:28:15.969988Z</date>
+  <millis>1717619295969</millis>
+  <nanos>988000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: signin</message>
+</record>
+<record>
+  <date>2024-06-05T20:28:16.127454Z</date>
+  <millis>1717619296127</millis>
+  <nanos>454000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+Вход на сервер произошел успешно
+</message>
+</record>
+<record>
+  <date>2024-06-05T20:28:26.412698Z</date>
+  <millis>1717619306412</millis>
+  <nanos>698000</nanos>
+  <sequence>4</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T20:28:26.432600Z</date>
+  <millis>1717619306432</millis>
+  <nanos>600000</nanos>
+  <sequence>5</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T20:28:52.909917Z</date>
+  <millis>1717619332909</millis>
+  <nanos>917000</nanos>
+  <sequence>6</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>21</thread>
+  <message>Получено новое подключение: /127.0.0.1 53561</message>
+</record>
+<record>
+  <date>2024-06-05T20:29:04.950014Z</date>
+  <millis>1717619344950</millis>
+  <nanos>14000</nanos>
+  <sequence>7</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>22</thread>
+  <message>Получено новое подключение: /127.0.0.1 53565</message>
+</record>
+<record>
+  <date>2024-06-05T20:29:07.344754Z</date>
+  <millis>1717619347344</millis>
+  <nanos>754000</nanos>
+  <sequence>8</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>22</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T20:29:07.346566Z</date>
+  <millis>1717619347346</millis>
+  <nanos>566000</nanos>
+  <sequence>9</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>22</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T20:29:11.795540Z</date>
+  <millis>1717619351795</millis>
+  <nanos>540000</nanos>
+  <sequence>10</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>21</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T20:29:11.798005Z</date>
+  <millis>1717619351798</millis>
+  <nanos>5000</nanos>
+  <sequence>11</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>21</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T20:31:20.312429Z</date>
+  <millis>1717619480312</millis>
+  <nanos>429000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 53585</message>
+</record>
+<record>
+  <date>2024-06-05T20:31:49.137217Z</date>
+  <millis>1717619509137</millis>
+  <nanos>217000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>21</thread>
+  <message>Получено новое подключение: /127.0.0.1 53589</message>
+</record>
+<record>
+  <date>2024-06-05T20:31:52.765497Z</date>
+  <millis>1717619512765</millis>
+  <nanos>497000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>21</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T20:31:52.779534Z</date>
+  <millis>1717619512779</millis>
+  <nanos>534000</nanos>
+  <sequence>4</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>21</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T20:31:55.735313Z</date>
+  <millis>1717619515735</millis>
+  <nanos>313000</nanos>
+  <sequence>5</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T20:31:55.737408Z</date>
+  <millis>1717619515737</millis>
+  <nanos>408000</nanos>
+  <sequence>6</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T20:32:05.695645Z</date>
+  <millis>1717619525695</millis>
+  <nanos>645000</nanos>
+  <sequence>7</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>22</thread>
+  <message>Получено новое подключение: /127.0.0.1 53622</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T20:34:54.941554Z</date>
+  <millis>1717619694941</millis>
+  <nanos>554000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 53677</message>
+</record>
+<record>
+  <date>2024-06-05T20:35:03.955070Z</date>
+  <millis>1717619703955</millis>
+  <nanos>70000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>21</thread>
+  <message>Получено новое подключение: /127.0.0.1 53681</message>
+</record>
+<record>
+  <date>2024-06-05T20:35:11.604765Z</date>
+  <millis>1717619711604</millis>
+  <nanos>765000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>23</thread>
+  <message>Получено новое подключение: /127.0.0.1 53685</message>
+</record>
+<record>
+  <date>2024-06-05T20:35:19.635295Z</date>
+  <millis>1717619719635</millis>
+  <nanos>295000</nanos>
+  <sequence>4</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T20:35:19.647931Z</date>
+  <millis>1717619719647</millis>
+  <nanos>931000</nanos>
+  <sequence>5</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T20:35:24.086875Z</date>
+  <millis>1717619724086</millis>
+  <nanos>875000</nanos>
+  <sequence>6</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>21</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T20:35:24.088013Z</date>
+  <millis>1717619724088</millis>
+  <nanos>13000</nanos>
+  <sequence>7</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>21</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T20:35:28.164905Z</date>
+  <millis>1717619728164</millis>
+  <nanos>905000</nanos>
+  <sequence>8</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>23</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T20:35:28.166251Z</date>
+  <millis>1717619728166</millis>
+  <nanos>251000</nanos>
+  <sequence>9</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>23</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T20:37:28.425857Z</date>
+  <millis>1717619848425</millis>
+  <nanos>857000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 53705</message>
+</record>
+<record>
+  <date>2024-06-05T20:37:37.971463Z</date>
+  <millis>1717619857971</millis>
+  <nanos>463000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>21</thread>
+  <message>Получено новое подключение: /127.0.0.1 53709</message>
+</record>
+<record>
+  <date>2024-06-05T20:37:46.098073Z</date>
+  <millis>1717619866098</millis>
+  <nanos>73000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>23</thread>
+  <message>Получено новое подключение: /127.0.0.1 53713</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T20:40:35.513377Z</date>
+  <millis>1717620035513</millis>
+  <nanos>377000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 53722</message>
+</record>
+<record>
+  <date>2024-06-05T20:40:53.881722Z</date>
+  <millis>1717620053881</millis>
+  <nanos>722000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>21</thread>
+  <message>Получено новое подключение: /127.0.0.1 53729</message>
+</record>
+<record>
+  <date>2024-06-05T20:41:03.005965Z</date>
+  <millis>1717620063005</millis>
+  <nanos>965000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>23</thread>
+  <message>Получено новое подключение: /127.0.0.1 53733</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T20:45:19.421571Z</date>
+  <millis>1717620319421</millis>
+  <nanos>571000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 53820</message>
+</record>
+<record>
+  <date>2024-06-05T20:45:31.635585Z</date>
+  <millis>1717620331635</millis>
+  <nanos>585000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>21</thread>
+  <message>Получено новое подключение: /127.0.0.1 53828</message>
+</record>
+<record>
+  <date>2024-06-05T20:45:40.826628Z</date>
+  <millis>1717620340826</millis>
+  <nanos>628000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>22</thread>
+  <message>Получено новое подключение: /127.0.0.1 53832</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T20:48:05.971134Z</date>
+  <millis>1717620485971</millis>
+  <nanos>134000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 53870</message>
+</record>
+<record>
+  <date>2024-06-05T20:48:15.432221Z</date>
+  <millis>1717620495432</millis>
+  <nanos>221000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>21</thread>
+  <message>Получено новое подключение: /127.0.0.1 53874</message>
+</record>
+<record>
+  <date>2024-06-05T20:48:24.354630Z</date>
+  <millis>1717620504354</millis>
+  <nanos>630000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>22</thread>
+  <message>Получено новое подключение: /127.0.0.1 53878</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T20:52:02.408796Z</date>
+  <millis>1717620722408</millis>
+  <nanos>796000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 53935</message>
+</record>
+<record>
+  <date>2024-06-05T20:52:10.022679Z</date>
+  <millis>1717620730022</millis>
+  <nanos>679000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>21</thread>
+  <message>Получено новое подключение: /127.0.0.1 53939</message>
+</record>
+<record>
+  <date>2024-06-05T20:52:18.098335Z</date>
+  <millis>1717620738098</millis>
+  <nanos>335000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>24</thread>
+  <message>Получено новое подключение: /127.0.0.1 53943</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T20:55:38.468701Z</date>
+  <millis>1717620938468</millis>
+  <nanos>701000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 53962</message>
+</record>
+<record>
+  <date>2024-06-05T20:55:44.753964Z</date>
+  <millis>1717620944753</millis>
+  <nanos>964000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>21</thread>
+  <message>Получено новое подключение: /127.0.0.1 53963</message>
+</record>
+<record>
+  <date>2024-06-05T20:55:50.249969Z</date>
+  <millis>1717620950249</millis>
+  <nanos>969000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>23</thread>
+  <message>Получено новое подключение: /127.0.0.1 53964</message>
+</record>
+<record>
+  <date>2024-06-05T20:55:53.794225Z</date>
+  <millis>1717620953794</millis>
+  <nanos>225000</nanos>
+  <sequence>4</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>23</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T20:55:53.815697Z</date>
+  <millis>1717620953815</millis>
+  <nanos>697000</nanos>
+  <sequence>5</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>23</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T20:55:57.541501Z</date>
+  <millis>1717620957541</millis>
+  <nanos>501000</nanos>
+  <sequence>6</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>21</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T20:55:57.543571Z</date>
+  <millis>1717620957543</millis>
+  <nanos>571000</nanos>
+  <sequence>7</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>21</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T20:56:00.989185Z</date>
+  <millis>1717620960989</millis>
+  <nanos>185000</nanos>
+  <sequence>8</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T20:56:00.990307Z</date>
+  <millis>1717620960990</millis>
+  <nanos>307000</nanos>
+  <sequence>9</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T20:58:08.006778Z</date>
+  <millis>1717621088006</millis>
+  <nanos>778000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 54006</message>
+</record>
+<record>
+  <date>2024-06-05T20:58:17.130159Z</date>
+  <millis>1717621097130</millis>
+  <nanos>159000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>21</thread>
+  <message>Получено новое подключение: /127.0.0.1 54010</message>
+</record>
+<record>
+  <date>2024-06-05T20:58:24.846677Z</date>
+  <millis>1717621104846</millis>
+  <nanos>677000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>22</thread>
+  <message>Получено новое подключение: /127.0.0.1 54014</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T21:00:02.315204Z</date>
+  <millis>1717621202315</millis>
+  <nanos>204000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 54021</message>
+</record>
+<record>
+  <date>2024-06-05T21:00:14.640255Z</date>
+  <millis>1717621214640</millis>
+  <nanos>255000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>23</thread>
+  <message>Получено новое подключение: /127.0.0.1 54025</message>
+</record>
+<record>
+  <date>2024-06-05T21:00:22.104831Z</date>
+  <millis>1717621222104</millis>
+  <nanos>831000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>21</thread>
+  <message>Получено новое подключение: /127.0.0.1 54029</message>
+</record>
+<record>
+  <date>2024-06-05T21:00:27.205865Z</date>
+  <millis>1717621227205</millis>
+  <nanos>865000</nanos>
+  <sequence>4</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T21:00:27.224667Z</date>
+  <millis>1717621227224</millis>
+  <nanos>667000</nanos>
+  <sequence>5</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T21:07:43.474683Z</date>
+  <millis>1717621663474</millis>
+  <nanos>683000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 54115</message>
+</record>
+<record>
+  <date>2024-06-05T21:07:53.032422Z</date>
+  <millis>1717621673032</millis>
+  <nanos>422000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>21</thread>
+  <message>Получено новое подключение: /127.0.0.1 54119</message>
+</record>
+<record>
+  <date>2024-06-05T21:08:04.378015Z</date>
+  <millis>1717621684378</millis>
+  <nanos>15000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>24</thread>
+  <message>Получено новое подключение: /127.0.0.1 54123</message>
+</record>
+<record>
+  <date>2024-06-05T21:09:13.248510Z</date>
+  <millis>1717621753248</millis>
+  <nanos>510000</nanos>
+  <sequence>4</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>22</thread>
+  <message>Получено новое подключение: /127.0.0.1 54127</message>
+</record>
+<record>
+  <date>2024-06-05T21:09:17.450621Z</date>
+  <millis>1717621757450</millis>
+  <nanos>621000</nanos>
+  <sequence>5</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>22</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T21:09:17.463610Z</date>
+  <millis>1717621757463</millis>
+  <nanos>610000</nanos>
+  <sequence>6</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>22</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T21:09:39.413407Z</date>
+  <millis>1717621779413</millis>
+  <nanos>407000</nanos>
+  <sequence>7</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>22</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T21:09:39.416456Z</date>
+  <millis>1717621779416</millis>
+  <nanos>456000</nanos>
+  <sequence>8</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>22</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T21:10:26.682245Z</date>
+  <millis>1717621826682</millis>
+  <nanos>245000</nanos>
+  <sequence>9</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>22</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T21:10:26.685271Z</date>
+  <millis>1717621826685</millis>
+  <nanos>271000</nanos>
+  <sequence>10</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>22</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T21:11:16.714812Z</date>
+  <millis>1717621876714</millis>
+  <nanos>812000</nanos>
+  <sequence>11</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>21</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T21:11:16.716350Z</date>
+  <millis>1717621876716</millis>
+  <nanos>350000</nanos>
+  <sequence>12</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>21</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T21:14:40.199769Z</date>
+  <millis>1717622080199</millis>
+  <nanos>769000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 54166</message>
+</record>
+<record>
+  <date>2024-06-05T21:14:50.805740Z</date>
+  <millis>1717622090805</millis>
+  <nanos>740000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>21</thread>
+  <message>Получено новое подключение: /127.0.0.1 54170</message>
+</record>
+<record>
+  <date>2024-06-05T21:14:58.472528Z</date>
+  <millis>1717622098472</millis>
+  <nanos>528000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>22</thread>
+  <message>Получено новое подключение: /127.0.0.1 54174</message>
+</record>
+<record>
+  <date>2024-06-05T21:18:46.654974Z</date>
+  <millis>1717622326654</millis>
+  <nanos>974000</nanos>
+  <sequence>4</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>23</thread>
+  <message>Получено новое подключение: /127.0.0.1 54209</message>
+</record>
+<record>
+  <date>2024-06-05T21:18:57.497668Z</date>
+  <millis>1717622337497</millis>
+  <nanos>668000</nanos>
+  <sequence>5</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>24</thread>
+  <message>Получено новое подключение: /127.0.0.1 54213</message>
+</record>
+<record>
+  <date>2024-06-05T21:19:07.720638Z</date>
+  <millis>1717622347720</millis>
+  <nanos>638000</nanos>
+  <sequence>6</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>25</thread>
+  <message>Получено новое подключение: /127.0.0.1 54217</message>
+</record>
+<record>
+  <date>2024-06-05T21:19:21.620979Z</date>
+  <millis>1717622361620</millis>
+  <nanos>979000</nanos>
+  <sequence>7</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>26</thread>
+  <message>Получено новое подключение: /127.0.0.1 54221</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T21:21:48.488929Z</date>
+  <millis>1717622508488</millis>
+  <nanos>929000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 54238</message>
+</record>
+<record>
+  <date>2024-06-05T21:21:59.761362Z</date>
+  <millis>1717622519761</millis>
+  <nanos>362000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>21</thread>
+  <message>Получено новое подключение: /127.0.0.1 54254</message>
+</record>
+<record>
+  <date>2024-06-05T21:22:09.160141Z</date>
+  <millis>1717622529160</millis>
+  <nanos>141000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>23</thread>
+  <message>Получено новое подключение: /127.0.0.1 54258</message>
+</record>
+<record>
+  <date>2024-06-05T21:22:25.158170Z</date>
+  <millis>1717622545158</millis>
+  <nanos>170000</nanos>
+  <sequence>4</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T21:22:25.172989Z</date>
+  <millis>1717622545172</millis>
+  <nanos>989000</nanos>
+  <sequence>5</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T21:22:29.444548Z</date>
+  <millis>1717622549444</millis>
+  <nanos>548000</nanos>
+  <sequence>6</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>21</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T21:22:29.445854Z</date>
+  <millis>1717622549445</millis>
+  <nanos>854000</nanos>
+  <sequence>7</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>21</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T21:22:33.452864Z</date>
+  <millis>1717622553452</millis>
+  <nanos>864000</nanos>
+  <sequence>8</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>23</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T21:22:33.455173Z</date>
+  <millis>1717622553455</millis>
+  <nanos>173000</nanos>
+  <sequence>9</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>23</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T21:23:54.369668Z</date>
+  <millis>1717622634369</millis>
+  <nanos>668000</nanos>
+  <sequence>10</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>22</thread>
+  <message>Получено новое подключение: /127.0.0.1 54262</message>
+</record>
+<record>
+  <date>2024-06-05T21:24:04.642688Z</date>
+  <millis>1717622644642</millis>
+  <nanos>688000</nanos>
+  <sequence>11</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>24</thread>
+  <message>Получено новое подключение: /127.0.0.1 54266</message>
+</record>
+<record>
+  <date>2024-06-05T21:24:12.884499Z</date>
+  <millis>1717622652884</millis>
+  <nanos>499000</nanos>
+  <sequence>12</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>25</thread>
+  <message>Получено новое подключение: /127.0.0.1 54270</message>
+</record>
+<record>
+  <date>2024-06-05T21:24:15.780836Z</date>
+  <millis>1717622655780</millis>
+  <nanos>836000</nanos>
+  <sequence>13</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>25</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T21:24:15.782609Z</date>
+  <millis>1717622655782</millis>
+  <nanos>609000</nanos>
+  <sequence>14</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>25</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T21:24:20.666055Z</date>
+  <millis>1717622660666</millis>
+  <nanos>55000</nanos>
+  <sequence>15</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>24</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T21:24:20.667551Z</date>
+  <millis>1717622660667</millis>
+  <nanos>551000</nanos>
+  <sequence>16</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>24</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T21:24:24.865255Z</date>
+  <millis>1717622664865</millis>
+  <nanos>255000</nanos>
+  <sequence>17</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>22</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T21:24:24.866478Z</date>
+  <millis>1717622664866</millis>
+  <nanos>478000</nanos>
+  <sequence>18</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>22</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T21:24:37.294544Z</date>
+  <millis>1717622677294</millis>
+  <nanos>544000</nanos>
+  <sequence>19</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>24</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T21:24:37.296469Z</date>
+  <millis>1717622677296</millis>
+  <nanos>469000</nanos>
+  <sequence>20</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>24</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T21:27:41.681486Z</date>
+  <millis>1717622861681</millis>
+  <nanos>486000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 54330</message>
+</record>
+<record>
+  <date>2024-06-05T21:27:44.452675Z</date>
+  <millis>1717622864452</millis>
+  <nanos>675000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T21:27:44.467212Z</date>
+  <millis>1717622864467</millis>
+  <nanos>212000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T21:28:01.012192Z</date>
+  <millis>1717622881012</millis>
+  <nanos>192000</nanos>
+  <sequence>4</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>21</thread>
+  <message>Получено новое подключение: /127.0.0.1 54335</message>
+</record>
+<record>
+  <date>2024-06-05T21:28:11.689403Z</date>
+  <millis>1717622891689</millis>
+  <nanos>403000</nanos>
+  <sequence>5</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>22</thread>
+  <message>Получено новое подключение: /127.0.0.1 54339</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T21:33:16.310619Z</date>
+  <millis>1717623196310</millis>
+  <nanos>619000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 54379</message>
+</record>
+<record>
+  <date>2024-06-05T21:33:24.603134Z</date>
+  <millis>1717623204603</millis>
+  <nanos>134000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>21</thread>
+  <message>Получено новое подключение: /127.0.0.1 54388</message>
+</record>
+<record>
+  <date>2024-06-05T21:33:33.264784Z</date>
+  <millis>1717623213264</millis>
+  <nanos>784000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>24</thread>
+  <message>Получено новое подключение: /127.0.0.1 54392</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T21:37:25.412426Z</date>
+  <millis>1717623445412</millis>
+  <nanos>426000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$0</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 54423</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T22:09:50.964348Z</date>
+  <millis>1717625390964</millis>
+  <nanos>348000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$2</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 54691</message>
+</record>
+<record>
+  <date>2024-06-05T22:09:59.687589Z</date>
+  <millis>1717625399687</millis>
+  <nanos>589000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$2</method>
+  <thread>21</thread>
+  <message>Получено новое подключение: /127.0.0.1 54695</message>
+</record>
+<record>
+  <date>2024-06-05T22:10:08.652988Z</date>
+  <millis>1717625408652</millis>
+  <nanos>988000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$2</method>
+  <thread>22</thread>
+  <message>Получено новое подключение: /127.0.0.1 54699</message>
+</record>
+<record>
+  <date>2024-06-05T22:10:13.739965Z</date>
+  <millis>1717625413739</millis>
+  <nanos>965000</nanos>
+  <sequence>4</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T22:10:13.743085Z</date>
+  <millis>1717625413743</millis>
+  <nanos>85000</nanos>
+  <sequence>5</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+Не авторизованным пользователям запрещено выполнять команды! Войдите или зарегистрируйтесь
+</message>
+</record>
+<record>
+  <date>2024-06-05T22:10:29.441502Z</date>
+  <millis>1717625429441</millis>
+  <nanos>502000</nanos>
+  <sequence>6</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: signin</message>
+</record>
+<record>
+  <date>2024-06-05T22:10:29.442844Z</date>
+  <millis>1717625429442</millis>
+  <nanos>844000</nanos>
+  <sequence>7</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+Не авторизованным пользователям запрещено выполнять команды! Войдите или зарегистрируйтесь
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T22:15:26.767004Z</date>
+  <millis>1717625726767</millis>
+  <nanos>4000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$2</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 54761</message>
+</record>
+<record>
+  <date>2024-06-05T22:15:29.961182Z</date>
+  <millis>1717625729961</millis>
+  <nanos>182000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T22:15:29.963809Z</date>
+  <millis>1717625729963</millis>
+  <nanos>809000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+Не авторизованным пользователям запрещено выполнять команды! Войдите или зарегистрируйтесь
+</message>
+</record>
+<record>
+  <date>2024-06-05T22:15:41.829286Z</date>
+  <millis>1717625741829</millis>
+  <nanos>286000</nanos>
+  <sequence>4</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: signin</message>
+</record>
+<record>
+  <date>2024-06-05T22:15:41.995356Z</date>
+  <millis>1717625741995</millis>
+  <nanos>356000</nanos>
+  <sequence>5</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+Вход на сервер произошел успешно
+</message>
+</record>
+<record>
+  <date>2024-06-05T22:15:46.892959Z</date>
+  <millis>1717625746892</millis>
+  <nanos>959000</nanos>
+  <sequence>6</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T22:15:46.902716Z</date>
+  <millis>1717625746902</millis>
+  <nanos>716000</nanos>
+  <sequence>7</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+<record>
+  <date>2024-06-05T22:16:30.780817Z</date>
+  <millis>1717625790780</millis>
+  <nanos>817000</nanos>
+  <sequence>8</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$2</method>
+  <thread>21</thread>
+  <message>Получено новое подключение: /127.0.0.1 54766</message>
+</record>
+<record>
+  <date>2024-06-05T22:16:33.934845Z</date>
+  <millis>1717625793934</millis>
+  <nanos>845000</nanos>
+  <sequence>9</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>21</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T22:16:33.935537Z</date>
+  <millis>1717625793935</millis>
+  <nanos>537000</nanos>
+  <sequence>10</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>21</thread>
+  <message>Отправлен ответ: Ответ сервера:
+Не авторизованным пользователям запрещено выполнять команды! Войдите или зарегистрируйтесь
+</message>
+</record>
+<record>
+  <date>2024-06-05T22:16:54.520417Z</date>
+  <millis>1717625814520</millis>
+  <nanos>417000</nanos>
+  <sequence>11</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>21</thread>
+  <message>Получен новый запрос: signin</message>
+</record>
+<record>
+  <date>2024-06-05T22:16:54.637757Z</date>
+  <millis>1717625814637</millis>
+  <nanos>757000</nanos>
+  <sequence>12</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>21</thread>
+  <message>Отправлен ответ: Ответ сервера:
+Вход на сервер произошел успешно
+</message>
+</record>
+<record>
+  <date>2024-06-05T22:17:42.797033Z</date>
+  <millis>1717625862797</millis>
+  <nanos>33000</nanos>
+  <sequence>13</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>21</thread>
+  <message>Получен новый запрос: show</message>
+</record>
+<record>
+  <date>2024-06-05T22:17:42.799344Z</date>
+  <millis>1717625862799</millis>
+  <nanos>344000</nanos>
+  <sequence>14</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>21</thread>
+  <message>Отправлен ответ: Ответ сервера:
+4=id: 4
+name: supercity228
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:03:32
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=60
+
+5=id: 5
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+6=id: 6
+name: c
+coordinates: x=228.0, y=228.0
+creationDate: 2024-06-04 18:06:14
+area: 228
+population: 228
+metersAboveSeaLevel: 228
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: VERY_LOW
+governor: age=55
+
+7=id: 7
+name: 1
+coordinates: x=1.0, y=1.0
+creationDate: 2024-06-04 19:01:25
+area: 1
+population: 1
+metersAboveSeaLevel: 1
+capital: false
+climate: MEDITERRANIAN
+standardOfLiving: NIGHTMARE
+governor: age=25
+
+
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-06-05T22:40:44.383767Z</date>
+  <millis>1717627244383</millis>
+  <nanos>767000</nanos>
+  <sequence>1</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$2</method>
+  <thread>20</thread>
+  <message>Получено новое подключение: /127.0.0.1 55026</message>
+</record>
+<record>
+  <date>2024-06-05T22:40:58.268876Z</date>
+  <millis>1717627258268</millis>
+  <nanos>876000</nanos>
+  <sequence>2</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>lambda$waitForConnection$2</method>
+  <thread>21</thread>
+  <message>Получено новое подключение: /127.0.0.1 55030</message>
+</record>
+<record>
+  <date>2024-06-05T22:41:21.210265Z</date>
+  <millis>1717627281210</millis>
+  <nanos>265000</nanos>
+  <sequence>3</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Получен новый запрос: signin</message>
+</record>
+<record>
+  <date>2024-06-05T22:41:21.455833Z</date>
+  <millis>1717627281455</millis>
+  <nanos>833000</nanos>
+  <sequence>4</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>20</thread>
+  <message>Отправлен ответ: Ответ сервера:
+Вход на сервер произошел успешно
+</message>
+</record>
+<record>
+  <date>2024-06-05T22:41:47.371344Z</date>
+  <millis>1717627307371</millis>
+  <nanos>344000</nanos>
+  <sequence>5</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>21</thread>
+  <message>Получен новый запрос: signin</message>
+</record>
+<record>
+  <date>2024-06-05T22:41:47.534480Z</date>
+  <millis>1717627307534</millis>
+  <nanos>480000</nanos>
+  <sequence>6</sequence>
+  <logger>server.TCPServer</logger>
+  <level>INFO</level>
+  <class>server.TCPServer</class>
+  <method>listenCommands</method>
+  <thread>21</thread>
+  <message>Отправлен ответ: Ответ сервера:
+Вход на сервер произошел успешно
+</message>
+</record>
+</log>

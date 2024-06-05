@@ -7,6 +7,9 @@ import server.managers.UserManager;
 
 import java.io.IOException;
 
+import static server.TCPServer.currentUserIsAuthenticated;
+import static server.TCPServer.currentUserLogin;
+
 public class SigninCommand extends Command{
 
 
@@ -22,6 +25,8 @@ public class SigninCommand extends Command{
         Responce res = new Responce();
         if (result) {
             res.addString("Вход на сервер произошел успешно");
+            currentUserIsAuthenticated.set(true);
+            currentUserLogin.set(request.getLogin());
         } else res.addString("Неверные логин и/или пароль. В доступе отказано");
         return res;
     }

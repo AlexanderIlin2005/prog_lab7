@@ -17,7 +17,10 @@ import static java.lang.System.exit;
 
 public class Main {
 
+
+
     public static void main(String[] args) throws IOException {
+        //ssh -p 2222 s381032@helios.cs.ifmo.ru -L 5432:localhost:5432
         //System.out.println("Количество ядер: " + Runtime.getRuntime().availableProcessors());
         Scanner sc = new Scanner(System.in);
         StandardConsole console = new StandardConsole();
