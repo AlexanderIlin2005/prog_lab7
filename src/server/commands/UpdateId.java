@@ -13,6 +13,8 @@ import server.utility.Console;
 import java.io.IOException;
 import java.util.Objects;
 
+import static server.TCPServer.currentUserLogin;
+
 public class UpdateId extends Command {
     private final Console console;
     private final CollectionManager collectionManager;
@@ -31,10 +33,14 @@ public class UpdateId extends Command {
             if (collectionManager.collectionSize() == 0) throw new CollectionIsEmptyException();
 
             int key = request.getId();
+            //System.out.println(currentUserLogin.get() + " " + collectionManager.getByKey(key).getCreatedBy());
             if (collectionManager.getByKey(key) != null){
-                //console.println("Начало изменения");
-                collectionManager.update(key, request.getCity());
-                responce.addString("город успешно изменен");
+
+                if (!collectionManager.getByKey(key).getCreatedBy().equals(currentUserLogin.get())){
+                    responce.addString("Нет прав");
+                } else {collectionManager.update(key, request.getCity());
+                responce.addString("город успешно изменен");}
+
             } else {
                 responce.addString("Нет города с таким id!");
             }
@@ -45,7 +51,7 @@ public class UpdateId extends Command {
         return responce;
     }
 
-    @Override
+        @Override
     public Responce apply(Request request) throws IOException {
         return applySp((UpdateIdRequest) request);
     }

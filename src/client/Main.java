@@ -7,12 +7,12 @@ import client.utility.Runner;
 import client.utility.StandardConsole;
 import client.commands.*;
 
+import java.net.SocketException;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         while (true){
             try {
-                Scanner sc = new Scanner(System.in);
 
                 TCPClient tcpClient = new TCPClient();
                 tcpClient.connect();
@@ -44,6 +44,7 @@ public class Main {
 
                 new Runner(console, commandManager).interactiveMode();
             } catch (RuntimeException e){
+                System.out.println("restart");
                 System.out.println("");
             }
         }

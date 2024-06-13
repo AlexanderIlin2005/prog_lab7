@@ -22,8 +22,8 @@ public class SignupCommand extends Command{
     }
 
     public Responce applySp(SignupRequest request) {
-        boolean result = userManager.registerUser(request.getLogin(), request.getPassword());
         Responce res = new Responce();
+        boolean result = userManager.registerUser(request.getLogin(), request.getPassword());
         if (result) {
             res.addString("Регистрация прошла успешно");
             currentUserIsAuthenticated.set(true);

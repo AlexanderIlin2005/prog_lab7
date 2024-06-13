@@ -30,7 +30,6 @@ public class UpdateId extends Command{
             int key = Integer.parseInt(arguments[1]);
             City city = Objects.requireNonNull(Checker.checkCity(console, key));
             tcpClient.sendCmdRequest(new UpdateIdRequest(key, city));
-            this.console.println("Город успешно добавлен.");
             return true;
 
         } catch (WrongAmountOfElementsException exception) {

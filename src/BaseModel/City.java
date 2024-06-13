@@ -33,6 +33,8 @@ public class City extends Element implements Validatable, Serializable {
     LocalDateTime crdate;
     transient DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
+    private String createdBy = "";
+
 
     public City(String name, Coordinates coordinates, long area, Long population,
                 Integer metersAboveSeaLevel, boolean capital, Climate climate,
@@ -237,6 +239,14 @@ public class City extends Element implements Validatable, Serializable {
         nextId = maxId + 1;
     }
 
+    public void setCreator(String creator){
+        createdBy = creator;
+    }
+
+    public String getCreatedBy(){
+        return createdBy;
+    }
+
     @Override
     public int compareTo(Element element) {
         return (int)(this.id - element.getId());
@@ -246,7 +256,8 @@ public class City extends Element implements Validatable, Serializable {
         return "id: " + id + "\n" + "name: " + name + "\n" + "coordinates: " + coordinates + "\n"
                 + "creationDate: " + creationDate + "\n" + "area: " + area + "\n" + "population: " + population
                 + "\n" + "metersAboveSeaLevel: " + metersAboveSeaLevel + "\n" + "capital: " + capital + "\n"
-                + "climate: " + climate + "\n" + "standardOfLiving: " + standard0fLiving + "\n" + "governor: " + governor;
+                + "climate: " + climate + "\n" + "standardOfLiving: " + standard0fLiving
+                + "\n" + "governor: " + governor + "\n" + "createdBy: " + createdBy;
     }
 
 }

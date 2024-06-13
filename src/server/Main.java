@@ -41,9 +41,11 @@ public class Main {
         CollectionManager collectionManager = new CollectionManager(console, connection);
         collectionManager.loadCollection();
 
+
+
         //City.updateNextId(collectionManager);
         //collectionManager.validateAll(console);
-        System.out.println(28);
+        //System.out.println(28);
 
         UserManager userManager = new UserManager(connection);
 
@@ -85,7 +87,10 @@ public class Main {
                 server.connect();
                 server.waitForConnection(); // ожидание нового пользователя
             } catch (IOException e) {
-                e.printStackTrace();
+                //e.printStackTrace();
+                System.out.println();
+            } catch (OutOfMemoryError e){
+                System.out.println("");
             }
         });
         serverThread.start();

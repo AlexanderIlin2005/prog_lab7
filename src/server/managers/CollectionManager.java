@@ -35,7 +35,7 @@ public class CollectionManager {
         this.lastSaveTime = null;
         //this.dumpManager = dumpManager;
         this.console = console;
-        System.out.println("до сюда дошли");
+
     }
 
     public CollectionManager(){
@@ -151,7 +151,8 @@ public class CollectionManager {
 
     public void loadCollection() {
         ConcurrentSkipListMap<Integer, City> loadedCollection = new ConcurrentSkipListMap<>();
-        String query = "SELECT * FROM collection";
+
+        String query = "SELECT * FROM city";
         try {
             PreparedStatement statement = connection.prepareStatement(query);
             ResultSet resultSet = statement.executeQuery();
@@ -167,6 +168,7 @@ public class CollectionManager {
                 city.setCapital(resultSet.getBoolean("capital"));
                 city.setClimate(Climate.valueOf(resultSet.getString("climate")));
                 city.setStandard0fLiving(StandardOfLiving.valueOf(resultSet.getString("standard_of_living")));
+                city.setCreator(resultSet.getString("created_by"));
                 Human governor = new Human(resultSet.getInt("governor_age"));
                 city.setGovernor(governor);
                 loadedCollection.put(city.getId(), city);
@@ -182,11 +184,11 @@ public class CollectionManager {
     }
 
     public void saveCollection() {
-        String query = "INSERT INTO Collection (name, coordinates_x, coordinates_y, creation_date, area, population, meters_above_sea_level, capital, climate, standard_of_living, governor_age) " +
-                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+        String query = "INSERT INTO city (name, coordinates_x, coordinates_y, creation_date, area, population, meters_above_sea_level, capital, climate, standard_of_living, governor_age, created_by) " +
+                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
         try {
-            PreparedStatement clearStatement = connection.prepareStatement("TRUNCATE TABLE Collection");
-            clearStatement.executeUpdate();
+            //PreparedStatement clearStatement = connection.prepareStatement("TRUNCATE TABLE Collection");
+            //clearStatement.executeUpdate();
             PreparedStatement statement = connection.prepareStatement(query);
             for (City city : collection.values()) {
                 statement.setString(1, city.getName());
@@ -200,6 +202,7 @@ public class CollectionManager {
                 statement.setString(9, city.getClimate().name());
                 statement.setString(10, city.getStandard0fLiving().name());
                 statement.setInt(11, city.getGovernor().getAge());
+                statement.setString(12, city.getCreatedBy());
                 statement.executeUpdate();
                 connection.commit();
             }

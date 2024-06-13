@@ -3,6 +3,7 @@ package client;
 import common.InfoResponce;
 import common.Responce;
 import common.requests.Request;
+import common.requests.ShowRequest;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -21,6 +22,7 @@ public class TCPClient {
 
     ObjectOutputStream out;
     ObjectInputStream in;
+    private Thread receiveThread;
 
     public TCPClient(){}
     public void connect(){
@@ -46,10 +48,19 @@ public class TCPClient {
         }
         System.out.println("Выполнено подключение к серверу "+ host + ":" + port);
 
-        // вызов метода receiveResponse()
-        Thread receiveThread = new Thread(this::receiveResponce);
 
+
+
+
+        receiveThread = new Thread(this::receiveResponce);
         receiveThread.start();
+
+
+
+
+
+        // вызов метода receiveResponse()
+
         //receiveResponce();
     }
 
@@ -69,45 +80,26 @@ public class TCPClient {
     }
 
 
-    /*
-    private void receiveInfoResponce() {
 
-        ExecutorService executor = Executors.newSingleThreadExecutor();
-        Future<?> future = executor.submit(() -> {
-            try {
-                Responce responce = (InfoResponce) in.readObject();
-                System.out.println(responce.getContent());
-            } catch (IOException | ClassNotFoundException e) {
-                System.out.println();
-            }
-        });
-
-        try {
-            future.get(10, TimeUnit.MILLISECONDS); // Указываем время ожидания в миллисекундах
-        } catch (TimeoutException e) {
-            future.cancel(true); // Прекращаем выполнение метода
-            //System.out.println("Метод прерван по таймауту");
-        } catch (InterruptedException | ExecutionException e) {
-            // Обработка исключений
-        }
-
-        executor.shutdown();
-    }
-
-     */
 
 
 
     private void receiveResponce() {
-        while (true) {
+        while (!Thread.currentThread().isInterrupted()) {
             try {
                 System.out.println(">>");
                 Responce responce = (Responce) in.readObject();
                 System.out.println(responce.getContent());
+                if (responce.getContent().contains("отключены")){
+                    Thread.currentThread().stop();
+                }
             } catch (IOException | ClassNotFoundException e) {
-                System.out.println(e.getMessage());
-                e.printStackTrace();
-                throw new RuntimeException();
+                System.out.println();
+                //break;
+
+                //throw new RuntimeException();
+                //Thread.currentThread().interrupt();
+
             }
         }
     }

@@ -20,6 +20,15 @@ public class UserManager {
             if (authenticateUser(login, hashedPassword)){
                 return false;
             }
+
+            String beforeQuery = "SELECT login from users where login=?";
+            PreparedStatement beforeStatement = connection.prepareStatement(beforeQuery);
+            beforeStatement.setString(1, login);
+            ResultSet resultSet = beforeStatement.executeQuery();
+            if (resultSet.next()){
+                return false;
+            }
+
             String query = "INSERT INTO users (login, hashed_password) VALUES (?, ?)";
             PreparedStatement statement = connection.prepareStatement(query);
             statement.setString(1, login);
